@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe6573e4-c06b-4570-8c19-b11a8c03fd9a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/templates/article/ArticleEditor.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/emptyx/controller/BangumiController.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\APP\Maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ah1uvhqr85hSvIcL7p2txEJ34d" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\mapper" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static\js" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static\css" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static\img" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\templates\bangumi" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\templates\article" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\mapper" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static\css" />
+      <recent name="E:\Desktop\Java后端\idea_webplace\boot_01_start\src\main\resources\static\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Boot01StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot_01_start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emptyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emptyx.Boot01StartApplication" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Boot01StartApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe6573e4-c06b-4570-8c19-b11a8c03fd9a" name="Changes" comment="" />
+      <created>1655447232368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655447232368</updated>
+      <workItem from="1655447234641" duration="5880000" />
+      <workItem from="1655540817213" duration="5518000" />
+      <workItem from="1655623171998" duration="1345000" />
+      <workItem from="1655624940874" duration="7565000" />
+      <workItem from="1655632638124" duration="646000" />
+      <workItem from="1655633333666" duration="1283000" />
+      <workItem from="1655634637773" duration="24000" />
+      <workItem from="1655634693397" duration="16462000" />
+      <workItem from="1655690727902" duration="18680000" />
+      <workItem from="1655878075878" duration="11791000" />
+      <workItem from="1655953921688" duration="7591000" />
+      <workItem from="1656067466899" duration="6782000" />
+      <workItem from="1656140257272" duration="12084000" />
+      <workItem from="1656214105672" duration="2342000" />
+      <workItem from="1656323227442" duration="11558000" />
+      <workItem from="1656335771267" duration="431000" />
+      <workItem from="1656572063681" duration="3359000" />
+      <workItem from="1656676034566" duration="10638000" />
+      <workItem from="1656813464782" duration="4400000" />
+      <workItem from="1656927185957" duration="5923000" />
+      <workItem from="1656939711733" duration="1304000" />
+      <workItem from="1656947456209" duration="1684000" />
+      <workItem from="1656999247443" duration="12421000" />
+      <workItem from="1657079884757" duration="12569000" />
+      <workItem from="1657094718272" duration="3835000" />
+      <workItem from="1657163777531" duration="3595000" />
+      <workItem from="1657262291463" duration="4512000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/2.2.2/mybatis-spring-boot-autoconfigure-2.2.2-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

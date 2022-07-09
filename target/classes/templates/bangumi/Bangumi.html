@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- CSS样式 -->
+    <div th:replace="Common::header"></div>
+</head>
+<body>
+<!--导航栏-->
+<div th:include="Common :: navigation"></div>
+<!--列表内容-->
+<div class="container">
+    <h3 class="font-weight-bold mt-2">番剧索引</h3>
+    <hr>
+    <!--选择目录-->
+    <div class="row" th:each="catalog : ${catalogs}">
+        <h5 class="font-weight-bold align-self-center m-3">
+            [[${catalog.category}]]
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-youjiantou"></use>
+            </svg>
+        </h5>
+        <div class="w-auto" th:each="item : ${catalog.item}">
+            <a type="button" class="btn btn-outline-success m-2">[[${item}]]</a>
+        </div>
+    </div>
+    <hr>
+    <!--番剧列表-->
+    <div class="row row-cols-5">
+        <div class="col mt-2" th:each="info : ${bangumis}">
+            <div class="card mw-100 border-0" style="width: 18rem;">
+                <img th:src="${info.cover}" class="card-img-top" height="270px" alt="cover">
+                <div class="card-body bg-light p-2">
+                    <p class="m-0 mb-2 small text-nowrap overflow-hidden"
+                       style="text-overflow: ellipsis;cursor: pointer;"
+                       th:text="${info.title}"
+                       data-toggle="tooltip"
+                       data-placement="bottom"
+                       th:title="${info.title}"
+                    ></p>
+                    <p class="m-0 small"
+                       style="color: red"
+                       th:text="${info.part}"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--script-->
+<div th:include="Common::footer"/>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.emptyx.dao.bangumi.BangumiDao">
+    <select id="getCount" resultType="long" >
+        select count(*) from bangumi
+    </select>
+    <select id="getCatalogs" resultType="com.emptyx.entity.bangumi.Catalog" >
+        select * from catalog
+    </select>
+    <select id="getBangumiByPage" parameterType="map" resultType="com.emptyx.entity.bangumi.Bangumi" >
+        SELECT * FROM bangumi limit ${rowNum},${pageSize}
+    </select>
+</mapper>

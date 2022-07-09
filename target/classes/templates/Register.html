@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <!-- CSS样式 -->
+    <div th:replace="Common::header"></div>
+    <!-- Custom styles for this template -->
+    <link href="/css/signin.css" rel="stylesheet">
+</head>
+<body class="text-center">
+<form class="form-signin" th:action="@{/user/register}" th:method="post">
+    <img class="mb-4 d-inline-block" src="/img/logo.png" alt="" width="85" height="54">请注册
+    <!--  账号  -->
+    <label for="inputEmail" class="sr-only">账号</label>
+    <input type="email" id="inputEmail" th:name="account"
+           class="form-control" placeholder="请输入账号" required autofocus>
+    <!--  用户名  -->
+    <label for="inputUserName" class="sr-only">用户名</label>
+    <input type="text" id="inputUserName" th:name="userName"
+           class="form-control" placeholder="请输入用户名" required>
+    <!--  密码  -->
+    <label for="inputPassword" class="sr-only">密码</label>
+    <input type="password" id="inputPassword" th:name="password"
+           class="form-control" placeholder="请输入密码" required>
+    <!--  注册按钮  -->
+    <button class="btn btn-lg btn-success btn-block" type="submit">注册</button>
+</form>
+</body>
+</html>
